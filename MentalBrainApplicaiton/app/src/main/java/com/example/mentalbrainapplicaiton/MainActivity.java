@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
      * Method to be used to start Memory Activity, called when the Memory Button is clicked.
      */
     public void openMemory(View view) {
-        Intent intent = new Intent(this, MentalMaths.class);
+        Intent intent = new Intent(this, Memory.class);
         startActivity(intent);
     }
 
