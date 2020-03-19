@@ -57,6 +57,23 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ProblemSolving.class);
         startActivity(intent);
     }
+
+    /**
+     * Method to be used to open respective AccountDetails Activity, called when the user icon is clicked.
+     */
+    public void openAccountDetails(View view) {
+
+        Intent intent = new Intent(this, UserRegister.class);
+        startActivity(intent);
+    }
+
+    public void openUserProgress(View view) {
+
+        Intent intent = new Intent(this, UserProgress.class);
+        startActivity(intent);
+    }
+
+
 }
 
 

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MobDev_CW2</string>
+    <string name="register_string">Sign up now!</string>
+    <string name="mail">Email address</string>
+    <string name="username">Username</string>
+    <string name="register_button">Register</string>
+    <string name="password">Password</string>
+    <string name="password2">Confirm Password</string>
+    <string name="login_string">Already a member?</string>
+    <string name="login_button">Login</string>
+    <string name="sign_in">Sign in</string>
+
+</resources>
