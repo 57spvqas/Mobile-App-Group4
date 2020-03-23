@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "20910672261",
+    "firebase_url": "https://mentalbrainapplicaitontest.firebaseio.com",
+    "project_id": "mentalbrainapplicaitontest",
+    "storage_bucket": "mentalbrainapplicaitontest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20910672261:android:f6d5e47804425c9a389cec",
+        "android_client_info": {
+          "package_name": "com.example.mentalbrainapplicaiton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20910672261-l2ua782r3s3ojva0phmkjmkies64d70j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcgvqXKDIlrUyaXO4cA6Wcjbc9Ib9or3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20910672261-l2ua782r3s3ojva0phmkjmkies64d70j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
