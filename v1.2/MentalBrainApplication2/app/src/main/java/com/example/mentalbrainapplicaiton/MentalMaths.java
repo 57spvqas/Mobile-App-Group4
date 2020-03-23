@@ -40,9 +40,11 @@ public class MentalMaths extends AppCompatActivity {
             Score = Score + 1;
             updateScore(Score);
             nextQuestion();
+            Answer.getText().clear();
         } else {
             Note.setText("Incorrect");
             nextQuestion();
+            Answer.getText().clear();
         }
 
     }
