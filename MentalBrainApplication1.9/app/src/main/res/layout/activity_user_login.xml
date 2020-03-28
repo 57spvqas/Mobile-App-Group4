@@ -108,6 +108,7 @@
         android:layout_height="159dp"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="64dp"
+        android:alpha=".25"
         app:layout_constraintBottom_toTopOf="@+id/usernameEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
