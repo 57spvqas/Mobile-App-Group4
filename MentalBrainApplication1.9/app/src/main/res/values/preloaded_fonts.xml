@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allan_bold</item>
+        <item>@font/cabin_bold</item>
+        <item>@font/cabin_condensed_medium</item>
+        <item>@font/comfortaa_bold</item>
+        <item>@font/coustard</item>
+        <item>@font/happy_monkey</item>
+        <item>@font/montserrat</item>
+        <item>@font/nunito_bold</item>
+        <item>@font/poppins</item>
+        <item>@font/sriracha</item>
+        <item>@font/unica_one</item>
+    </array>
+</resources>

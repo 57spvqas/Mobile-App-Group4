@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="410dp"
+        android:layout_height="72dp"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Settings"
+        android:layout_width="165dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:text="Choose your Difficulty"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <Button
+        android:id="@+id/startQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startQuiz"
+        android:text="Start Quiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <RadioGroup
+        android:layout_width="126dp"
+        android:layout_height="159dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533">
+
+        <RadioButton
+            android:id="@+id/selectEasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectEasy"
+            android:text="Easy"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/selectMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectMedium"
+            android:text="Medium"
+            android:textColor="#FDFDFD" />
+
+        <RadioButton
+            android:id="@+id/selectHard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectHard"
+            android:text="Hard"
+            android:textColor="#FFFFFF" />
+
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/account"
+        android:onClick="openAccountDetails"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/house"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/settings"
+        android:onClick="openSettings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
