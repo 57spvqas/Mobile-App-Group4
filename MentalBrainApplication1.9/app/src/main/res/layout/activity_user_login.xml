@@ -124,6 +124,7 @@
         android:layout_marginLeft="34dp"
         android:layout_marginBottom="18dp"
         android:background="@drawable/settings"
+        android:onClick="openSettings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
