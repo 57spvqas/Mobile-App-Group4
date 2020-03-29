@@ -18,6 +18,7 @@
     <string name="problemsolving">Problem-Solving</string>
     <string name="back">Back</string>
     <string name="register_string">Sign up now!</string>
+    <string name="dark_mode">Dark Mode</string>
     <string name="mail">Email address</string>
     <string name="username">Username</string>
     <string name="register_button">Register</string>
@@ -33,6 +34,7 @@
     <string name="email">email</string>
     <string name="logout">Logout</string>
     <string name="TextView_question_number">Question number:</string>
+    <string name="na">n/a</string>
 
 
 
