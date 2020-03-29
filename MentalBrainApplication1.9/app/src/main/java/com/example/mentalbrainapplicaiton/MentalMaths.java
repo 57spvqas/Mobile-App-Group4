@@ -54,7 +54,7 @@ public class MentalMaths extends AppCompatActivity {
 
     private void nextQuestion() {
         TextView myQuestions = findViewById(R.id.question);
-        TextView questionNumber = findViewById(R.id.questionNumber);
+        TextView questionNumber = findViewById(R.id.questionNumber4);
         myQuestions.setText(newQuestions.getQuestion(QuestionNumber));
         newAnswer = newQuestions.getAnswers(QuestionNumber);
         QuestionNumber++;
