@@ -41,7 +41,7 @@ public class MediumQuiz extends AppCompatActivity {
 
     private void nextQuestion() {
         TextView myQuestions = findViewById(R.id.question);
-        TextView questionNumber = findViewById(R.id.questionNumber3);
+        TextView questionNumber = findViewById(R.id.questionNumber4);
         myQuestions.setText(newMediumQuestions.getQuestion(QuestionNumber));
         newAnswer = newMediumQuestions.getAnswers(QuestionNumber);
         QuestionNumber++;
