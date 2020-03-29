@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient">
-
     <View
         android:id="@+id/view6"
         android:layout_width="411dp"
@@ -46,7 +45,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="72dp"
         android:gravity="center"
-        android:textColor="#DCAE08"
+        android:textColor="#DC6408"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.728"
@@ -60,7 +59,7 @@
         android:layout_marginTop="108dp"
         android:background="@drawable/textview_border"
         android:gravity="center"
-        android:textColor="#DCAE08"
+        android:textColor="#DC6408"
         android:textSize="21sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
@@ -73,7 +72,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="104dp"
         android:gravity="center"
-        android:textColor="#DCAE08"
+        android:textColor="#DC6408"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
