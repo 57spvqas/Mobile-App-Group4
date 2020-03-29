@@ -35,9 +35,7 @@ public class UserProgress extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_progress);
-
-        int test = 0;
-
+        
         fAuth = FirebaseAuth.getInstance();
         user = fAuth.getCurrentUser();
         database = FirebaseDatabase.getInstance();
@@ -49,7 +47,7 @@ public class UserProgress extends AppCompatActivity {
         //Querying userdata that corresponds with currently signed in email
 
 
-        if (test == 0){
+        if (user == null){
 
             TextView usernameTv = findViewById(R.id.textViewUsername);
             TextView scoreTv = findViewById(R.id.textViewScore);
@@ -61,7 +59,7 @@ public class UserProgress extends AppCompatActivity {
 
         }
 
-        else if(test == 1){
+        else {
         Query query = databaseReference.orderByChild("email").equalTo(user.getEmail());
         query.addValueEventListener(new ValueEventListener() {
 
