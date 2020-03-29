@@ -35,6 +35,8 @@
     <string name="logout">Logout</string>
     <string name="TextView_question_number">Question number:</string>
     <string name="na">n/a</string>
+    <string name="baseline_quiz">Not sure where to start? Take our baseline quiz to find out your recommended starting difficulty!</string>
+    <string name="improve_skill_quizes">Already feeling confident in your abilities? Click here to improve your Math skills at one of three chosen difficulties!</string>
 
 
 
